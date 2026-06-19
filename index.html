@@ -34,11 +34,22 @@
 </header>
 
 <!-- HERO -->
+<style>
+  .def-block { border-left: 3px solid var(--sage); padding-left: 34px; max-width: 820px; }
+  .def-word { font-size: clamp(2.8rem, 8vw, 5.6rem); line-height: 1; color:#fff; letter-spacing:-.02em; margin: 12px 0 8px; }
+  .def-pron { font-family: var(--sans); color: var(--sage); font-size: 1.05rem; letter-spacing:.03em; margin: 0 0 24px; }
+  .def-pron .pos { font-style: italic; color:#9FB6AC; }
+  .def-def { font-family: var(--serif); font-size: clamp(1.25rem, 2.5vw, 1.7rem); line-height: 1.5; color:#DCE6EC; max-width: 30ch; margin: 0 0 30px; }
+  .def-def b { color:#fff; font-weight: 600; }
+  @media (max-width:600px){ .def-block{ padding-left:20px; } }
+</style>
 <section class="hero">
   <div class="container">
+    <div class="def-block">
     <span class="eyebrow">Healthcare Strategy &amp; Transformation Leader</span>
-    <h1>Where healthcare operations meet strategy.</h1>
-    <p class="lead">I connect operations, analytics, technology, and leadership to solve the problems that determine whether a health system delivers access, financial health, and a better patient experience. I have worked at every level of that chain, from the registration desk to enterprise transformation.</p>
+    <h1 class="def-word">Timothy Farrar.</h1>
+    <p class="def-pron">[ tim&middot;uh&middot;thee&nbsp;&nbsp;fa&middot;rar ]&nbsp;&nbsp;&middot;&nbsp;&nbsp;<span class="pos">noun</span></p>
+    <p class="def-def"><b>Where healthcare operations meet strategy.</b> A leader who connects front-line operations, analytics, technology, and leadership to improve access, financial health, and the patient experience.</p>
     <div class="hero-meta">
       <span class="chip chip--accent">MHA</span>
       <span class="chip chip--accent">Lean Six Sigma Black Belt</span>
@@ -49,6 +60,7 @@
     <div class="btn-row">
       <a class="btn btn--primary" href="journey.html">Explore my leadership journey</a>
       <a class="btn btn--on-navy" href="projects.html">View flagship projects</a>
+    </div>
     </div>
   </div>
 </section>
