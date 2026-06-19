@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Projects — Timothy Farrar, MHA</title>
+<meta name="description" content="Three flagship healthcare strategy projects: a patient access transformation dashboard, an operations transformation case study, and an AI in healthcare operations executive brief.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="nav container">
+    <a class="brand" href="index.html"><span class="monogram">TF</span><span>Timothy Farrar<small>Healthcare Strategy &amp; Transformation</small></span></a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="journey.html">Journey</a></li>
+      <li><a href="impact.html">Impact</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="insights.html">Insights</a></li>
+      <li><a href="teaching.html">Teaching</a></li>
+      <li><a href="resume.html">Resume</a></li>
+      <li class="nav-cta"><a class="btn btn--primary" href="contact.html">Contact</a></li>
+    </ul>
+    <button class="nav-toggle" aria-label="Menu"><span></span><span></span><span></span></button>
+  </nav>
+</header>
+
+<section class="page-head">
+  <div class="container">
+    <div class="breadcrumb"><a href="index.html">Home</a> / Projects</div>
+    <h1>Flagship projects</h1>
+    <p class="lead">Three executive-grade artifacts that show how I think about healthcare operations — diagnosis, design, recommendation, and roadmap. <span style="color:var(--sage)">These are demonstration projects; quantified figures are illustrative models unless otherwise noted.</span></p>
+    <div class="btn-row" style="margin-top:24px">
+      <a class="btn btn--on-navy" href="#access">01 · Patient Access</a>
+      <a class="btn btn--on-navy" href="#operations">02 · Operations Case Study</a>
+      <a class="btn btn--on-navy" href="#ai">03 · AI Executive Brief</a>
+    </div>
+  </div>
+</section>
+
+<!-- ================= PROJECT 1 ================= -->
+<section class="section" id="access">
+  <div class="container maxw-820 mx-auto">
+    <span class="tag">Project 01 · Patient Access</span>
+    <h2 style="margin-top:14px">Patient Access Transformation Dashboard</h2>
+    <p class="lead">An executive command center for patient access — making scheduling, workforce, referral, and capacity performance visible enough to act on.</p>
+
+    <div class="proj-section">
+      <h3><span class="n">1</span>Executive Summary</h3>
+      <p>Patient access is the front door of the health system and the leading indicator of both growth and patient experience. Yet access performance is usually scattered across scheduling systems, contact-center reports, referral logs, and capacity spreadsheets that no single leader sees together. This project designs a single executive dashboard that unifies those signals into one operating view and connects each metric to a decision an operating leader can actually make.</p>
+      <p>The thesis is simple: when access leaders can see demand, capacity, conversion, and workforce in one place, they stop managing anecdotes and start managing the system.</p>
+    </div>
+
+    <div class="proj-section">
+      <h3><span class="n">2</span>Business Challenge</h3>
+      <p>Health systems lose volume, revenue, and goodwill at the access layer in ways that rarely show up clearly until they compound:</p>
+      <ul>
+        <li><strong>Third-next-available appointments</strong> stretch to weeks while clinical capacity sits unevenly utilized.</li>
+        <li><strong>Referrals leak</strong> out of the network because the loop between referral, scheduling, and confirmation is broken.</li>
+        <li><strong>Contact centers</strong> miss calls and abandon patients at the exact moment they are trying to get care.</li>
+        <li><strong>Workforce</strong> is staffed to averages, not to demand patterns, so service breaks at predictable peaks.</li>
+      </ul>
+      <p>The underlying problem is not a lack of data — it is a lack of an integrated, decision-oriented view.</p>
+    </div>
+
+    <div class="proj-section">
+      <h3><span class="n">3</span>Dashboard Design</h3>
+      <p>The dashboard is organized into four operating quadrants, each answering one executive question:</p>
+      <ul>
+        <li><strong>Demand &amp; Access</strong> — How long until a patient can be seen? <em>(Third-next-available, time-to-appointment, new-patient lag.)</em></li>
+        <li><strong>Capacity &amp; Utilization</strong> — Are we using the capacity we have? <em>(Template utilization, no-show rate, bump/cancellation rate.)</em></li>
+        <li><strong>Referral Flow</strong> — Are referrals converting and staying in network? <em>(Referral-to-appointment conversion, leakage, time-to-schedule.)</em></li>
+        <li><strong>Workforce &amp; Service</strong> — Can patients reach us when they call? <em>(Call abandonment, service level, schedule adherence.)</em></li>
+      </ul>
+      <p>Each quadrant uses the sage-green accent to flag the single metric most out of tolerance, so the eye goes to the decision, not the decoration.</p>
+    </div>
+
+    <div class="proj-section">
+      <h3><span class="n">4</span>KPI Framework</h3>
+      <table class="kpi-table">
+        <thead><tr><th>Domain</th><th>KPI</th><th>Why it matters</th><th>Illustrative target</th></tr></thead>
+        <tbody>
+          <tr><td>Demand</td><td>Third-next-available appointment</td><td>True access felt by patients</td><td>&le; 7 days</td></tr>
+          <tr><td>Demand</td><td>Time-to-appointment (new patient)</td><td>Growth &amp; experience</td><td>&le; 10 days</td></tr>
+          <tr><td>Capacity</td><td>Template utilization</td><td>Yield on clinical capacity</td><td>&ge; 85%</td></tr>
+          <tr><td>Capacity</td><td>No-show rate</td><td>Wasted capacity &amp; revenue</td><td>&le; 6%</td></tr>
+          <tr><td>Referral</td><td>Referral-to-appointment conversion</td><td>Network retention &amp; revenue</td><td>&ge; 75%</td></tr>
+          <tr><td>Referral</td><td>Network leakage</td><td>Lost downstream volume</td><td>&le; 15%</td></tr>
+          <tr><td>Workforce</td><td>Call abandonment rate</td><td>Access at first contact</td><td>&le; 5%</td></tr>
+          <tr><td>Workforce</td><td>Service level (calls in 30s)</td><td>Responsiveness</td><td>&ge; 80%</td></tr>
+        </tbody>
+      </table>
+      <p class="note">Targets shown are illustrative benchmarks for demonstration, not a specific organization's standards.</p>
+    </div>
+
+    <div class="proj-section">
+      <h3><span class="n">5</span>Executive Insights</h3>
+      <p>A dashboard like this typically surfaces three patterns that change leadership conversations:</p>
+      <ul>
+        <li><strong>The capacity is there; the matching is not.</strong> Utilization gaps and long waits usually coexist — an allocation problem, not a volume problem.</li>
+        <li><strong>Leakage is a scheduling-friction problem.</strong> Most out-of-network loss traces back to how hard it is to get the first appointment, not patient preference.</li>
+        <li><strong>Abandonment predicts downstream demand.</strong> Every abandoned call is deferred or lost care that resurfaces — often more expensively — later.</li>
+      </ul>
+    </div>
+
+    <div class="proj-section">
+      <h3><span class="n">6</span>Recommendations</h3>
+      <ul>
+        <li>Stand up a single access dashboard with clear ownership and a weekly operating cadence.</li>
+        <li>Implement demand-based scheduling templates and centralized scheduling for high-leakage specialties.</li>
+        <li>Staff the contact center to demand curves, not headcount averages.</li>
+        <li>Close the referral loop with automated tracking from referral to confirmed appointment.</li>
+      </ul>
+    </div>
+
+    <div class="proj-section">
+      <h3><span class="n">7</span>Implementation Roadmap</h3>
+      <div class="roadmap">
+        <div class="phase"><span class="ph-label">Phase 1 · 0&ndash;30 days</span><h4>See it</h4><p>Define KPIs, unify data sources, stand up the dashboard, establish ownership and cadence.</p></div>
+        <div class="phase"><span class="ph-label">Phase 2 · 30&ndash;90 days</span><h4>Move it</h4><p>Pilot demand-based templates and contact-center staffing; launch referral-loop tracking in two specialties.</p></div>
+        <div class="phase"><span class="ph-label">Phase 3 · 90&ndash;180 days</span><h4>Scale it</h4><p>Roll out across service lines, embed in operating reviews, tie metrics to accountability and incentives.</p></div>
+      </div>
+    </div>
+
+    <div class="proj-section">
+      <h3><span class="n">8</span>Leadership Lessons</h3>
+      <p>Dashboards do not improve access; decisions do. The value of this artifact is not the visualization — it is the operating discipline it enables: one view, clear owners, a weekly cadence, and a bias toward action. Technology makes the problem visible; leadership makes it move.</p>
+    </div>
+
+    <div class="proj-section">
+      <h3><span class="n">9</span>Sources</h3>
+      <p class="note">Framework draws on widely used access and ambulatory operations measures (e.g., third-next-available appointment, referral conversion, contact-center service levels). <span class="placeholder">Add specific source citations — MGMA, AMGA, IHI, organizational benchmarks — before publishing.</span></p>
+    </div>
+
+    <div class="center" style="margin-top:8px">
+      <a class="btn btn--ghost" href="#operations">Next project &rarr;</a>
+    </div>
+  </div>
+</section>
+
+<hr class="divider">
+
+<!-- ================= PROJECT 2 ================= -->
+<section class="section section--paper" id="operations">
+  <div class="container maxw-820 mx-auto">
+    <span class="tag">Project 02 · Operations &middot; Lean Six Sigma</span>
+    <h2 style="margin-top:14px">Healthcare Operations Transformation Case Study</h2>
+    <p class="lead">Reducing time-to-appointment and improving referral conversion — a structured operations diagnosis from current state to financial impact.</p>
+
+    <div class="proj-section">
+      <h3><span class="n">1</span>Executive Summary</h3>
+      <p>An ambulatory specialty practice is losing patients to long waits and referral leakage. This case study applies a Lean Six Sigma DMAIC approach to diagnose why, isolate the highest-leverage root causes, and recommend interventions with a modeled financial return. The headline: most of the wait and most of the leakage are created by process friction the organization controls — not by demand it cannot.</p>
+    </div>
+
+    <div class="proj-section">
+      <h3><span class="n">2</span>Current State</h3>
+      <ul>
+        <li>Average time-to-appointment for new patients: <strong>~24 days</strong> <span class="note">(illustrative)</span></li>
+        <li>Referral-to-appointment conversion: <strong>~58%</strong> <span class="note">(illustrative)</span></li>
+        <li>No-show rate: <strong>~12%</strong>, concentrated in long-lead-time bookings</li>
+        <li>Scheduling spread across decentralized teams with inconsistent templates and no closed referral loop</li>
+      </ul>
+      <p>The patient journey from referral to visit passes through multiple handoffs, each adding delay and drop-off.</p>
+    </div>
+
+    <div class="proj-section">
+      <h3><span class="n">3</span>Root Cause Analysis</h3>
+      <p>Using fishbone and five-whys analysis, the delay and leakage trace to a small set of process drivers:</p>
+      <ul>
+        <li><strong>Template mismatch</strong> — appointment templates do not reflect real demand by visit type.</li>
+        <li><strong>Manual referral handling</strong> — no automated tracking means referrals stall in queues.</li>
+        <li><strong>Decentralized scheduling</strong> — inconsistent rules produce uneven access across the same specialty.</li>
+        <li><strong>Long lead times drive no-shows</strong> — which then re-inflate the backlog, a reinforcing loop.</li>
+      </ul>
+    </div>
+
+    <div class="proj-section">
+      <h3><span class="n">4</span>Lean Six Sigma Framework (DMAIC)</h3>
+      <table class="kpi-table">
+        <thead><tr><th>Phase</th><th>Focus</th><th>Key activities</th></tr></thead>
+        <tbody>
+          <tr><td><strong>Define</strong></td><td>Problem &amp; goal</td><td>Cut time-to-appointment and lift referral conversion; charter and scope.</td></tr>
+          <tr><td><strong>Measure</strong></td><td>Baseline</td><td>Map the referral-to-visit value stream; quantify wait, conversion, no-show.</td></tr>
+          <tr><td><strong>Analyze</strong></td><td>Root cause</td><td>Fishbone, five-whys, Pareto on delay and leakage drivers.</td></tr>
+          <tr><td><strong>Improve</strong></td><td>Intervention</td><td>Demand-based templates, centralized scheduling, automated referral loop, no-show mitigation.</td></tr>
+          <tr><td><strong>Control</strong></td><td>Sustain</td><td>Standard work, control charts, weekly operating review, owner accountability.</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="proj-section">
+      <h3><span class="n">5</span>Recommendations</h3>
+      <ul>
+        <li>Redesign templates to match demand by visit type and provider.</li>
+        <li>Centralize scheduling for the specialty with standardized rules.</li>
+        <li>Automate the referral loop end-to-end with status tracking and outreach.</li>
+        <li>Deploy reminders, waitlists, and overbooking logic to recover no-show capacity.</li>
+      </ul>
+    </div>
+
+    <div class="proj-section">
+      <h3><span class="n">6</span>Financial Impact <span class="note" style="font-weight:400">(illustrative model)</span></h3>
+      <table class="kpi-table">
+        <thead><tr><th>Lever</th><th>Current</th><th>Target</th><th>Modeled annual value</th></tr></thead>
+        <tbody>
+          <tr><td>Time-to-appointment</td><td>~24 days</td><td>&le; 10 days</td><td>Higher conversion &amp; retention</td></tr>
+          <tr><td>Referral conversion</td><td>~58%</td><td>&ge; 75%</td><td>Recaptured downstream volume</td></tr>
+          <tr><td>No-show rate</td><td>~12%</td><td>&le; 6%</td><td>Recovered visit capacity</td></tr>
+          <tr><td colspan="3"><strong>Illustrative net opportunity</strong></td><td><strong>$1&ndash;3M / year</strong></td></tr>
+        </tbody>
+      </table>
+      <p class="note">Figures are a demonstration model. <span class="placeholder">Replace with organization-specific volumes and reimbursement before publishing.</span></p>
+    </div>
+
+    <div class="proj-section">
+      <h3><span class="n">7</span>Implementation Roadmap</h3>
+      <div class="roadmap">
+        <div class="phase"><span class="ph-label">0&ndash;30 days</span><h4>Define &amp; Measure</h4><p>Charter the effort, map the value stream, baseline the metrics.</p></div>
+        <div class="phase"><span class="ph-label">30&ndash;90 days</span><h4>Analyze &amp; Improve</h4><p>Confirm root causes; pilot templates, centralized scheduling, and the referral loop.</p></div>
+        <div class="phase"><span class="ph-label">90&ndash;180 days</span><h4>Control &amp; Scale</h4><p>Standardize, install control charts, expand across the service line.</p></div>
+      </div>
+    </div>
+
+    <div class="proj-section">
+      <h3><span class="n">8</span>Executive Takeaways</h3>
+      <ul>
+        <li>Access problems are usually process problems the organization can fix.</li>
+        <li>DMAIC turns frustration into a sequenced, defensible plan.</li>
+        <li>Sustained gains require control mechanisms, not just a one-time project.</li>
+      </ul>
+    </div>
+
+    <div class="proj-section">
+      <h3><span class="n">9</span>Sources</h3>
+      <p class="note">Methodology based on Lean Six Sigma DMAIC and standard ambulatory access measures. <span class="placeholder">Add citations and any real baseline data before publishing.</span></p>
+    </div>
+
+    <div class="center"><a class="btn btn--ghost" href="#ai">Next project &rarr;</a></div>
+  </div>
+</section>
+
+<hr class="divider">
+
+<!-- ================= PROJECT 3 ================= -->
+<section class="section" id="ai">
+  <div class="container maxw-820 mx-auto">
+    <span class="tag">Project 03 · Executive Brief</span>
+    <h2 style="margin-top:14px">AI in Healthcare Operations — Executive Brief</h2>
+    <p class="lead">Where artificial intelligence creates real operating value across workforce, revenue cycle, and patient access — and how to govern it responsibly.</p>
+
+    <div class="proj-section">
+      <h3><span class="n">1</span>Executive Summary</h3>
+      <p>AI is moving from pilot to production in healthcare operations, but the value is uneven and the risk is real. This brief frames where AI delivers near-term operating return — workforce optimization, revenue cycle automation, and patient access — and pairs each opportunity with the governance discipline required to deploy it safely. The argument is not "adopt AI." It is "automate the routine, augment the expert, and govern everything."</p>
+    </div>
+
+    <div class="proj-section">
+      <h3><span class="n">2</span>Current Challenges</h3>
+      <ul>
+        <li>Administrative burden and labor cost are consuming margin.</li>
+        <li>Workforce shortages strain access and service.</li>
+        <li>Revenue cycle leakage from denials, manual coding, and rework.</li>
+        <li>Fragmented data and inconsistent processes limit scale.</li>
+      </ul>
+    </div>
+
+    <div class="proj-section">
+      <h3><span class="n">3</span>AI Opportunities</h3>
+      <p>The practical frontier is automation of high-volume routine work and augmentation of expert judgment — not replacement of clinical or operating leadership.</p>
+      <ul>
+        <li><strong>Automate</strong>: status checks, eligibility, documentation drafting, routine coding, call triage.</li>
+        <li><strong>Augment</strong>: denial prediction, demand forecasting, capacity optimization, risk flagging.</li>
+        <li><strong>Avoid</strong> (for now): unsupervised decisions affecting clinical care or patient eligibility without human review.</li>
+      </ul>
+    </div>
+
+    <div class="proj-section">
+      <h3><span class="n">4</span>Workforce Applications</h3>
+      <ul>
+        <li>Demand forecasting and AI-assisted scheduling to staff to real patterns.</li>
+        <li>Conversational AI for routine patient and employee inquiries.</li>
+        <li>Knowledge assistants that cut onboarding time and support frontline decisions.</li>
+      </ul>
+    </div>
+
+    <div class="proj-section">
+      <h3><span class="n">5</span>Revenue Cycle Applications</h3>
+      <ul>
+        <li>Denial prediction and prevention before claims go out.</li>
+        <li>Automated prior authorization and eligibility verification.</li>
+        <li>Computer-assisted coding and documentation support.</li>
+        <li>Intelligent worklist prioritization for follow-up.</li>
+      </ul>
+    </div>
+
+    <div class="proj-section">
+      <h3><span class="n">6</span>Patient Access Applications</h3>
+      <ul>
+        <li>AI-assisted scheduling and intelligent referral routing.</li>
+        <li>Automated appointment reminders and no-show prediction.</li>
+        <li>Self-service access through conversational front doors.</li>
+      </ul>
+    </div>
+
+    <div class="proj-section">
+      <h3><span class="n">7</span>Governance Considerations</h3>
+      <p>Drawing on direct experience supporting AI governance, responsible deployment requires guardrails built in from the start:</p>
+      <ul>
+        <li>Clear use-case approval and risk-tiering process.</li>
+        <li>Human-in-the-loop for any decision touching care or coverage.</li>
+        <li>Bias, accuracy, and drift monitoring with defined ownership.</li>
+        <li>Transparency, documentation, and regulatory alignment.</li>
+      </ul>
+    </div>
+
+    <div class="proj-section">
+      <h3><span class="n">8</span>Financial Impact <span class="note" style="font-weight:400">(illustrative)</span></h3>
+      <p>The near-term ROI concentrates in labor-intensive, high-volume administrative work: reduced cost-to-collect, fewer denials and less rework, recovered staff capacity, and improved access throughput. Value should be modeled per use case with a clear baseline before scaling. <span class="placeholder">Add organization-specific ROI modeling before publishing.</span></p>
+    </div>
+
+    <div class="proj-section">
+      <h3><span class="n">9</span>Implementation Roadmap</h3>
+      <div class="roadmap">
+        <div class="phase"><span class="ph-label">Phase 1</span><h4>Govern &amp; prioritize</h4><p>Stand up AI governance; rank use cases by value and risk; pick two low-risk, high-volume pilots.</p></div>
+        <div class="phase"><span class="ph-label">Phase 2</span><h4>Pilot &amp; prove</h4><p>Deploy with human-in-the-loop, measure against baseline, validate accuracy and ROI.</p></div>
+        <div class="phase"><span class="ph-label">Phase 3</span><h4>Scale &amp; monitor</h4><p>Expand proven use cases; institutionalize monitoring, retraining, and accountability.</p></div>
+      </div>
+    </div>
+
+    <div class="proj-section">
+      <h3><span class="n">10</span>Executive Recommendations</h3>
+      <ul>
+        <li>Lead with governance — it is the enabler, not the obstacle, of responsible scale.</li>
+        <li>Start where work is routine, high-volume, and low-clinical-risk.</li>
+        <li>Measure every use case against a real baseline before expanding.</li>
+        <li>Keep humans accountable for any decision that reaches a patient.</li>
+      </ul>
+    </div>
+
+    <div class="proj-section">
+      <h3><span class="n">11</span>Sources</h3>
+      <p class="note">Brief reflects current healthcare AI operating practice and direct AI-governance experience. <span class="placeholder">Add citations — e.g., industry reports, regulatory guidance — before publishing.</span></p>
+    </div>
+
+    <div class="center"><a class="btn btn--primary" href="contact.html">Discuss a project</a></div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a class="brand" href="index.html"><span class="monogram">TF</span><span style="color:#fff">Timothy Farrar<small>MHA · CLSSBB · CRCR</small></span></a>
+        <p>Healthcare Strategy &amp; Transformation Leader. Connecting front-line operations, analytics, technology, and leadership to improve healthcare performance.</p>
+      </div>
+      <div><h4>Explore</h4><a href="journey.html">Leadership Journey</a><a href="impact.html">Impact</a><a href="projects.html">Projects</a><a href="insights.html">Insights</a></div>
+      <div><h4>Connect</h4><a href="contact.html">Contact</a><a href="resume.html">Resume</a><a href="#" data-placeholder>LinkedIn &#8599;</a><a href="teaching.html">Teaching &amp; Leadership</a></div>
+    </div>
+    <div class="footer-bottom"><span>&copy; 2026 Timothy Farrar, MHA, CLSSBB, CRCR &middot; New Jersey</span><span>Executive platform prototype</span></div>
+  </div>
+</footer>
+
+<script src="assets/script.js"></script>
+</body>
+</html>
